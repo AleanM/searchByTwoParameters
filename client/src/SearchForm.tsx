@@ -131,7 +131,7 @@ function SearchForm() {
         </button>
       </form>
 
-      {isLoading && <p>Loading...</p>}
+      {isLoading && <p className="loading">Loading...</p>}
       {searchResults.length > 0 && (
         <div className="results-container">
           <p className="results-title">Search Results:</p>

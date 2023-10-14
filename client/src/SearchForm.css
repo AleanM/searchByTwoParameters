@@ -23,6 +23,13 @@
   font-size: 16px;
 }
 
+.loading {
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 20px; 
+}
+
 .error-message {
   color: red;
   font-size: 14px;
