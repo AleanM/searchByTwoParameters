@@ -56,7 +56,7 @@ function SearchForm() {
     const numberWithoutDashes: string = number.replace(/-/g, '');
 
 
-    if (numberWithoutDashes.length > 0 && numberWithoutDashes.length < 8) {
+    if (numberWithoutDashes.length > 0 && numberWithoutDashes.length < 6) {
       setIsEmailValid(true); 
       setIsNumberValid(false);
       return;
